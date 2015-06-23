@@ -48,7 +48,7 @@ EVERYWHEREWIKI("Titolo della pagina Wikipedia", "Prefisso della lingua")
 ```
 =EVERYWHEREWIKI("https://it.wikipedia.org/wiki/Italia")
 ``` 
-restiuisce il contenuto della pagina Wikipedia "Italia".<br>
+restiuisce il contenuto della pagina Wikipedia "Italia".<br><br>
 ```
 =EVERYWHEREWIKI("Alan Turing","it")
 ``` 
