@@ -52,7 +52,7 @@ restiuisce il contenuto della pagina Wikipedia "Italia".<br><br>
 ```
 =EVERYWHEREWIKI("Alan Turing","it")
 ``` 
-restituisce il contenuto, in lingua italiana, della pagina Wikipedia "Alan Turing".<br>
+restituisce il contenuto, in lingua italiana, della pagina Wikipedia "Alan Turing".<br><br>
 **FUNZIONAMENTO DETTAGLIATO:**<br>
 
 **SCELTE IMPLEMENTATIVE E LIBRERIE UTILIZZATE:**<br>
