@@ -4,12 +4,14 @@
 * Fabrizio Nurchi
 * Antonio Nuvoli
 * Omar Pani
+prova
+prova
 
 ### Funzione Semplice
-**NOME:** GRADI
-**CATEGORIA:** Matematica
-**FUNZIONAMENTO:** Converte i radianti in gradi.
-**SINTASSI:** 
+**NOME:** GRADI 
+**CATEGORIA:** Matematica 
+**FUNZIONAMENTO:** Converte i radianti in gradi. 
+**SINTASSI:**
 ```
 GRADI(Numero)
 ```
