@@ -13,7 +13,7 @@
 ```
 GRADI(Numero)
 ```
-**Numero** è l'angolo espresso in radianti da convertire in gradi.<br>
+*Numero* è l'angolo espresso in radianti da convertire in gradi.<br>
 **ESEMPIO:**
 ```
 = GRADI(PI.GRECO())
