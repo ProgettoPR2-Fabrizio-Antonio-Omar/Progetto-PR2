@@ -14,7 +14,7 @@
 GRADI(Numero)
 ```
 **Numero** è l'angolo espresso in radianti da convertire in gradi.<br>
-**ESEMPIO:** <br>
+**ESEMPIO:**
 ```
 = GRADI(PI.GRECO())
 ``` restituisce 180 gradi.
