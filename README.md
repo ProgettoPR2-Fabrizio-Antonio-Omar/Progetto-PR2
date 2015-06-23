@@ -28,10 +28,10 @@ restituisce 180 gradi.
 ```
 MATR.TRASPOSTA(Matrice)
 ```
-Il parametro **Matrice** rappresenta la matrice del foglio elettronico da trasporre.
+Il parametro *Matrice* rappresenta la matrice del foglio elettronico da trasporre.
 A inizio pagina sono disponibili ulteriori informazioni.<br>
 **ESEMPIO:**<br>
-Nel foglio elettronico, selezionate l'area in cui dovrà comparire la matrice trasposta. Se la matrice originale contiene "n" righe e "m" colonne, l'area selezionata deve contenere almeno "m" righe e "n" colonne. Digitate direttamente la formula, selezionate la matrice originale e premete Maiusc+Ctrl+Invio. In alternativa, se state usando la **Creazione guidata funzione**, selezionate la casella di controllo **Matrice**. La matrice trasposta compare nell'area di destinazione selezionata e viene protetta automaticamente dalle modifiche.<br>
+Nel foglio elettronico, selezionate l'area in cui dovrà comparire la matrice trasposta. Se la matrice originale contiene "n" righe e "m" colonne, l'area selezionata deve contenere almeno "m" righe e "n" colonne. Digitate direttamente la formula, selezionate la matrice originale e premete Maiusc+Ctrl+Invio. In alternativa, se state usando la *Creazione guidata funzione*, selezionate la casella di controllo *Matrice*. La matrice trasposta compare nell'area di destinazione selezionata e viene protetta automaticamente dalle modifiche.<br>
 
 ### Funzione Custom
 **NOME:** EVERYWHEREWIKI<br>
