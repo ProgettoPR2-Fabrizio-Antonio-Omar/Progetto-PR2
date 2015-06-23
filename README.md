@@ -17,7 +17,8 @@ GRADI(Numero)
 **ESEMPIO:**
 ```
 = GRADI(PI.GRECO())
-``` restituisce 180 gradi.
+``` 
+restituisce 180 gradi.
 
 ### Funzione Complessa
 **NOME:** MATR.TRASPOSTA<br>
