@@ -62,7 +62,7 @@ Nel caso in cui vengano passati come parametri il *titolo della pagina* e il *pr
 **Esempio:** viene cercata la pagina "Sabrina Ferilli" in lingua spagnola, la pagina non viene trovata in lingua spagnola dunque si effettua una ricerca utilizzando nuovamente il titolo "Sabrina Ferilli" all'interno di Wikipedia in versione inglese, la pagina viene trovata e viene stampato il contenuto tradotto in lingua spagnola.<br><br>
 3. Il titolo della pagina viene tradotto in lingua inglese e la pagina viene cercata dentro Wikipedia in versione inglese utilizzando però il titolo tradotto. Se la pagina viene trovata viene stampata tradotta nella lingua specificata originariamente dall'utente. Se la pagina non viene trovata viene stampato un messaggio di errore.<br>
 **Esempio:** questo caso è molto raro. Ipotizzando che la pagina "[Cloroformio](https://it.wikipedia.org/wiki/Cloroformio)" non esista in lingua italiana e l'utente la cercasse in italiano si cade nel secondo pattern. A questo punto la pagina "Cloroformio" viene cercata in inglese ma non viene comunque trovata, questo perché la parola "Cloroformio" non ha nessun significato in lingua inglese; si passa al terzo pattern. Viene tradotta la parola "Cloroformio" in inglese producendo "Chloroform"; viene cercata e trovata la pagina "Chloroform" in inglese, che verrà tradotta in italiano e restituita all'utente.<br><br>
-
+Nel caso in cui l'utente inserisca solamente il link della pagina viene semplicemente stampato il contenuto della pagina in quella lingua.<br><br>
 
 **LIBRERIE UTILIZZATE:**<br>
 * [**wiki-java**](https://github.com/mer-c/wiki-java) per effettuare la ricerca delle pagine Wikipedia e per estrapolare il contenuto in HTML.
