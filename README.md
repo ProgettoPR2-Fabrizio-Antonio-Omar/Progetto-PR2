@@ -66,4 +66,6 @@ Nel caso in cui vengano passati come parametri il *titolo della pagina* e il *pr
 
 **SCELTE IMPLEMENTATIVE E LIBRERIE UTILIZZATE:**<br>
 Sono state usate le seguenti librerie:
-* [**wiki-java**](https://github.com/mer-c/wiki-java)
+* [**wiki-java**](https://github.com/mer-c/wiki-java) per effettuare la ricerca delle pagine Wikipedia e per estrapolare il contenuto in HTML.
+* [**Jericho HTML Parser**](http://jericho.htmlparser.net/docs/index.html) per convertire l'HTML delle pagine in "plain text" e renderlo leggibile all'utente.
+* [**microsoft-translator-java-api**](https://github.com/boatmeme/microsoft-translator-java-api) per effettuare le traduzioni.
