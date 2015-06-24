@@ -4,7 +4,6 @@
 * Fabrizio Nurchi
 * Antonio Nuvoli
 * Omar Pani
-<br><br><br>
 ### Funzione Semplice
 **NOME:** GRADI <br>
 **CATEGORIA:** Matematica <br>
