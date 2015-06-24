@@ -55,5 +55,7 @@ restiuisce il contenuto della pagina Wikipedia "Italia".<br><br>
 ``` 
 restituisce il contenuto, in lingua italiana, della pagina Wikipedia "Alan Turing".<br><br>
 **FUNZIONAMENTO DETTAGLIATO:**<br>
+Nel caso in cui vengano passati come parametri il *titolo della pagina* e il *prefisso della lingua* la funzione si può ramificare in 3 pattern:<br>
+
 
 **SCELTE IMPLEMENTATIVE E LIBRERIE UTILIZZATE:**<br>
