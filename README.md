@@ -67,6 +67,10 @@ Nel caso in cui vengano passati come parametri il *titolo della pagina* e il *pr
 **LIBRERIE UTILIZZATE:**<br>
 * [**wiki-java**](https://github.com/mer-c/wiki-java) per effettuare la ricerca delle pagine Wikipedia e per estrapolare il contenuto in HTML.
 * [**Jericho HTML Parser**](http://jericho.htmlparser.net/docs/index.html) per convertire l'HTML delle pagine in "plain text" e renderlo leggibile all'utente. E' stato utilizzato questo parser perché, tra quelli provati, forniva una migliore formattazione del testo convertito da HTML.
-* [**microsoft-translator-java-api**](https://github.com/boatmeme/microsoft-translator-java-api) per effettuare le traduzioni. Inizialmente avevamo pensato di utlizzare le API di Google Translate ma sembrano essere diventate a pagamento ed è possibile avere un trial di 60 gg solo nel caso di aziende. Abbiamo perciò optato per Bing, che permette 2.000.000 di chars al mese gratuitamente.<br><br>
+* [**microsoft-translator-java-api**](https://github.com/boatmeme/microsoft-translator-java-api) per effettuare le traduzioni. Inizialmente avevamo pensato di utlizzare le API di Google Translate ma sembrano essere diventate a pagamento ed è possibile avere un trial di 60 gg solo nel caso di aziende. Abbiamo perciò optato per Bing, che permette 2.000.000 di char al mese gratuitamente.<br><br>
 
-**SCELTE IMPLEMENTATIVE:**
+**SCELTE IMPLEMENTATIVE:**<br>
+Per quanto riguarda i pattern si è scelto di utilizzare la lingua inglese come alternativa alle ricerche nella lingua specificata dall'utente perché Wikipedia in inglese contiene un numero maggiore di voci.<br><br>
+Per le traduzioni si hanno a disposizione 2.000.000 char mensili e speriamo che questo limite non venga oltrepassato con i test. Per questo, abbiamo specificatamente effettuato traduzioni di pagine brevi.<br><br>
+Inizialmente avevamo pensato di cercare le pagine non solo in lingua inglese ma in tutte le lingue possibili (o perlomeno nelle versioni di Wikipedia che contengono il maggior numero di voci) ma siamo stati costretti ad abbandonare questa ipotesi a causa della lentezza delle query da parte delle API di Wikipedia utilizzate (circa 5 secondi per ottenere il testo di una pagina). Questo ritardo è dato probabilmente dal fatto che quando si vuole passare alle voci in un'altra lingua bisogna rinizializzare un oggetto di tipo Wiki con il costruttore e rieffettuare il login al database. D'altra parte, ottenere l'HTML delle pagine con una libreria più generica non ci avrebbe permesso di sapere se una pagina esistesse o meno.
+
