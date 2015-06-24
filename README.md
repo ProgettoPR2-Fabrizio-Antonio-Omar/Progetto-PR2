@@ -5,7 +5,7 @@
 * Antonio Nuvoli
 * Omar Pani
 
-<br><br><br>
+<br><br>
 
 ### Funzione Semplice
 **NOME:** GRADI <br>
