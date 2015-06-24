@@ -37,7 +37,7 @@ Nel foglio elettronico, selezionate l'area in cui dovrà comparire la matrice tr
 ### Funzione Custom
 **NOME:** EVERYWHEREWIKI<br>
 **CATEGORIA:** Testo<br>
-**FUNZIONAMENTO:** Restiuisce il contenuto di una pagina Wikipedia con eventuale traduzione dello stesso.<br>
+**FUNZIONAMENTO:** Restiuisce il contenuto di una pagina Wikipedia nella lingua specificata dall'utente.<br>
 **SINTASSI:** <br>
 ```
 EVERYWHEREWIKI("Link della pagina Wikipedia")
