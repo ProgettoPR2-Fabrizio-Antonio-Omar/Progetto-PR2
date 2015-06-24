@@ -67,5 +67,5 @@ Nel caso in cui vengano passati come parametri il *titolo della pagina* e il *pr
 **SCELTE IMPLEMENTATIVE E LIBRERIE UTILIZZATE:**<br>
 Sono state usate le seguenti librerie:
 * [**wiki-java**](https://github.com/mer-c/wiki-java) per effettuare la ricerca delle pagine Wikipedia e per estrapolare il contenuto in HTML.
-* [**Jericho HTML Parser**](http://jericho.htmlparser.net/docs/index.html) per convertire l'HTML delle pagine in "plain text" e renderlo leggibile all'utente.
-* [**microsoft-translator-java-api**](https://github.com/boatmeme/microsoft-translator-java-api) per effettuare le traduzioni.
+* [**Jericho HTML Parser**](http://jericho.htmlparser.net/docs/index.html) per convertire l'HTML delle pagine in "plain text" e renderlo leggibile all'utente. E' stato utilizzato questo parser perché, tra quelli provati, forniva una migliore formattazione del testo convertito da HTML.
+* [**microsoft-translator-java-api**](https://github.com/boatmeme/microsoft-translator-java-api) per effettuare le traduzioni. Inizialmente avevamo pensato di utlizzare le API di Google Translate ma sembrano essere diventate a pagamento ed è possibile avere un trial di 60 gg solo nel caso di aziende. Abbiamo perciò optato per Bing, che permette 2.000.000 di chars al mese gratuitamente.
