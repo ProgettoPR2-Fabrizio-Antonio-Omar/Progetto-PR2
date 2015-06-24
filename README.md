@@ -59,6 +59,7 @@ Nel caso in cui vengano passati come parametri il *titolo della pagina* e il *pr
 1. La pagina cercata dall'utente inserendo il titolo esiste nella lingua specificata dall'utente, a questo punto viene stampato il contenuto della pagina. In caso la pagina non esistesse si passa al punto 2.<br>
 **Esempio:** viene cercata la pagina "Italia" in lingua italiana, la pagina viene trovata e ne viene stampato il contenuto così com'è. <br><br>
 2. La pagina viene cercata dentro Wikipedia in versione inglese usando lo stesso titolo, se la pagina viene trovata viene stampata tradotta nella lingua specificata originariamente dall'utente. Se la pagina non viene trovata si passa al punto 3.<br>
+**Esempio:** viene cercata la pagina "Sabrina Ferilli" in lingua spagnola, la pagina non viene trovata in lingua spagnola dunque si effettua una ricerca utilizzando nuovamente il titolo "Sabrina Ferilli" all'interno di Wikipedia in versione inglese, la pagina viene trovata e viene stampato il contenuto tradotto in lingua spagnola.<br><br>
 3. Il titolo della pagina viene tradotto in lingua inglese e la pagina viene cercata dentro Wikipedia in versione inglese utilizzando però il titolo tradotto. Se la pagina viene trovata viene stampata tradotta nella lingua specificata originariamente dall'utente. Se la pagina non viene trovata viene stampato un messaggio di errore.
 
 
