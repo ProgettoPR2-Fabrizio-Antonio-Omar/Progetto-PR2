@@ -55,7 +55,7 @@ restiuisce il contenuto della pagina Wikipedia "Italia".<br><br>
 ``` 
 restituisce il contenuto, in lingua italiana, della pagina Wikipedia "Alan Turing".<br><br>
 **FUNZIONAMENTO DETTAGLIATO:**<br>
-Nel caso in cui vengano passati come parametri il *titolo della pagina* e il *prefisso della lingua* la funzione si può ramificare in 3 pattern:<br>
+Nel caso in cui vengano passati come parametri il *titolo della pagina* e il *prefisso della lingua* la funzione si può ramificare in 3 pattern:<br><br>
 1. La pagina cercata dall'utente inserendo il titolo esiste nella lingua specificata dall'utente, a questo punto viene stampato il contenuto della pagina. In caso la pagina non esistesse si passa al punto 2.<br>
 2. La pagina viene cercata dentro Wikipedia in versione inglese usando lo stesso titolo, se la pagina viene trovata viene stampata tradotta nella lingua specificata originariamente dall'utente. Se la pagina non viene trovata si passa al punto 3.<br>
 3. Il titolo della pagina viene tradotto in lingua inglese e la pagina viene cercata dentro Wikipedia in versione inglese utilizzando però il titolo tradotto. Se la pagina viene trovata viene stampata tradotta nella lingua specificata originariamente dall'utente. Se la pagina non viene trovata viene stampato un messaggio di errore.
