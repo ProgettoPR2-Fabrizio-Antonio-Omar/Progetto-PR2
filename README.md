@@ -65,3 +65,5 @@ Nel caso in cui vengano passati come parametri il *titolo della pagina* e il *pr
 
 
 **SCELTE IMPLEMENTATIVE E LIBRERIE UTILIZZATE:**<br>
+Sono state usate le seguenti librerie:
+* [**wiki-java**](https://github.com/mer-c/wiki-java)
