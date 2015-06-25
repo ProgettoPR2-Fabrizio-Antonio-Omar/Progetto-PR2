@@ -77,6 +77,9 @@ Nel caso in cui l'utente inserisca solamente il link della pagina viene semplice
 
 **SCELTE IMPLEMENTATIVE:** <br>
 Per quanto riguarda i pattern si è scelto di utilizzare la lingua inglese come alternativa alle ricerche nella lingua specificata dall'utente perché Wikipedia in inglese contiene un numero maggiore di voci (4.853.000 voci).<br><br>
-Per le traduzioni si hanno a disposizione 2.000.000 di caratteri mensili. Per questo, abbiamo specificatamente effettuato traduzioni di pagine brevi. <br><br>
+Per le traduzioni si hanno a disposizione **2.000.000 di caratteri mensili**. Per questo, abbiamo specificatamente effettuato traduzioni di pagine brevi. <br><br>
 Inizialmente avevamo pensato di cercare le pagine non solo in lingua inglese ma in tutte le lingue possibili (o perlomeno nelle versioni di Wikipedia che contengono il maggior numero di voci) ma siamo stati costretti ad abbandonare questa ipotesi a causa della lentezza delle query da parte delle API di Wikipedia utilizzate (circa 5 secondi per ottenere il testo di una pagina). Questo ritardo è dato probabilmente dal fatto che quando si vuole passare alle voci in un'altra lingua bisogna rinizializzare un oggetto di tipo Wiki con il costruttore e rieffettuare il login al database. D'altra parte, ottenere l'HTML delle pagine con una libreria più generica, velocizzando i tempi, non ci avrebbe permesso di sapere se una pagina esiste o meno. <br><br>
-Abbiamo utilizzato 5 metodi statici che vengono poi richiamati nel corpo del metodo execute per frammentare e rendere più leggibile il codice. 
+Abbiamo utilizzato 5 metodi statici che vengono poi richiamati nel corpo del metodo execute per frammentare e rendere più leggibile il codice. <br><br>
+
+**NOTE ULTERIORI:**<br>
+Nel caso venga superato il limite massimo di 2.000.000 di caratteri mensili, nel foglio di calcolo potrebbe essere visualizzato #VALORE! nella cella di output del test che richiede la traduzione.
