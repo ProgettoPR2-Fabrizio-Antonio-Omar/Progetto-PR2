@@ -82,4 +82,4 @@ Inizialmente avevamo pensato di cercare le pagine non solo in lingua inglese ma 
 Abbiamo utilizzato 5 metodi statici che vengono poi richiamati nel corpo del metodo execute per frammentare e rendere più leggibile il codice. <br><br>
 
 **NOTE ULTERIORI:**<br>
-Nel caso venga superato il limite massimo di 2.000.000 di caratteri mensili, nel foglio di calcolo potrebbe essere visualizzato #VALORE! nella cella di output del test che richiede la traduzione.
+Nel caso venga superato il limite massimo di 2.000.000 di caratteri mensili, nel foglio di calcolo potrebbe essere visualizzato #VALORE! nella cella di output del test che richiede la traduzione, inoltre l'esecuzione della funzione Custom all'interno del foglio di calcolo richiede diversi secondi di attesa prima che il risultato sia visibile a causa della lentezza delle librerie esterne.
